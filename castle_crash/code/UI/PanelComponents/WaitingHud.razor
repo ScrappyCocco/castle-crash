@@ -16,8 +16,8 @@
 			</li>
 		}
 	</ul>
-	@if ( Networking.IsHost )
-    {
+	@if (Networking.IsHost)
+	{
 		<button class="" Tooltip="#menu.start.tooltip" onclick=@StartGameNow>#menu.start.name</button>
 	}
 </root>
@@ -43,8 +43,11 @@
 
 	void StartGameNow()
 	{
+		SoundsManagerComponent.Instance.UISelect();
+
 		GameManager.Instance.StartGame();
 	}
 
-	protected override int BuildHash() => System.HashCode.Combine(GameManager.Instance.GameState, GameManager.Instance.WaitingTime);
+	protected override int BuildHash() => System.HashCode.Combine(GameManager.Instance.GameState,
+	GameManager.Instance.WaitingTime);
 }

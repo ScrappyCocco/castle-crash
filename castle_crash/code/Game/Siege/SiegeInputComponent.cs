@@ -59,6 +59,8 @@ public sealed class SiegeInputComponent : Component
 			SelectedCell = HighlightedCell;
 			SelectedCell?.Select();
 
+			SoundsManagerComponent.Instance.UISelect();
+
 			if ( SelectedCell.IsOccupied )
 			{
 				GameManager.Instance.PlayerState = PlayerState.Editing;

@@ -32,6 +32,7 @@ public sealed class SiegeProjectileComponent : Component, Component.ICollisionLi
 
 		if ( collision.Other.GameObject != null && !collision.Other.GameObject.Tags.Has( "debris" ) )
 		{
+			// Could also have used collision.Contact.Speed.Length, shouldn't make much difference
 			Log.Info( $"[Projectile]{GameObject} hitted {collision.Other.GameObject} with a speed of {RigidbodyComponent.Velocity.Length}" );
 			if ( collision.Other.GameObject.Tags.Has( "destructible" ) )
 			{
@@ -53,6 +54,9 @@ public sealed class SiegeProjectileComponent : Component, Component.ICollisionLi
 					CastleDestructiblePiece.Break();
 				}
 			}
+
+			// Play the impact sound
+			SoundsManagerComponent.Instance.ProjectileImpact( collision.Contact.Point );
 
 			if ( bBreakOnImpact && !collision.Other.GameObject.Tags.Has( "destructible_prop" ) )
 			{

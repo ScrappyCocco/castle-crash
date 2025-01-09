@@ -13,6 +13,7 @@ public sealed class GameManager : Component, Component.INetworkListener
     [RequireComponent] SiegeInputComponent _siegeInput { get; set; }
     [RequireComponent] PlayerSpawnManagerComponent _playerSpawn { get; set; }
     [RequireComponent] ResultManagerComponent _ResultManager { get; set; }
+    [RequireComponent] SoundsManagerComponent _SoundsManager { get; set; }
 
     [Property, Group( "Prefabs" )] public GameObject CatapultPrefab { get; set; }
     [Property, Group( "Prefabs" )] public GameObject TrebuchetPrefab { get; set; }
@@ -111,6 +112,8 @@ public sealed class GameManager : Component, Component.INetworkListener
         CellComponent.IsOccupied = true;
         CellComponent.UpdateSpawnedSiege( NewSpawnedSiege );
 
+        SoundsManagerComponent.Instance.SiegeBuild( NewSpawnedSiege.WorldPosition );
+
         PlayerState = PlayerState.Editing;
     }
 
@@ -118,6 +121,8 @@ public sealed class GameManager : Component, Component.INetworkListener
     {
         if ( CellComponent.SpawnedSiege is not null )
         {
+            SoundsManagerComponent.Instance.SiegeDestroy( CellComponent.SpawnedSiege.WorldPosition );
+
             CellComponent.SpawnedSiege.Destroy();
             CellComponent.UpdateSpawnedSiege( null );
             CellComponent.IsOccupied = false;

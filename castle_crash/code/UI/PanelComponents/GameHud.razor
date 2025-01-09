@@ -22,10 +22,14 @@
 				<div class="buttons">
 					<label>#siege.fire.power.name</label><label>@(CurrentSiegeFirePower())</label>
 					<label>#siege.fire.speed.name</label><label>@(CurrentSiegeFireSpeed())</label>
-					<button class="" Tooltip="#siege.rotation.left.tooltip" onmousedown=@RotateLeft onmouseup=@StopRotateLeft>#siege.rotation.left.name</button>
-					<button class="" Tooltip="#siege.rotation.right.tooltip" onmousedown=@RotateRight onmouseup=@StopRotateRight>#siege.rotation.right.name</button>
-					<button class="" Tooltip="#siege.fire.power.increase.tooltip" onclick=@FirePowerIncrease>#siege.fire.power.increase.name</button>
-					<button class="" Tooltip="#siege.fire.power.decrease.tooltip" onclick=@FirePowerDecrease>#siege.fire.power.decrease.name</button>
+					<button class="" Tooltip="#siege.rotation.left.tooltip" onmousedown=@RotateLeft
+						onmouseup=@StopRotateLeft>#siege.rotation.left.name</button>
+					<button class="" Tooltip="#siege.rotation.right.tooltip" onmousedown=@RotateRight
+						onmouseup=@StopRotateRight>#siege.rotation.right.name</button>
+					<button class="" Tooltip="#siege.fire.power.increase.tooltip"
+						onclick=@FirePowerIncrease>#siege.fire.power.increase.name</button>
+					<button class="" Tooltip="#siege.fire.power.decrease.tooltip"
+						onclick=@FirePowerDecrease>#siege.fire.power.decrease.name</button>
 					<button class="" Tooltip="#siege.destroy.tooltip" onclick=@Destroy>#siege.destroy.name</button>
 					<button class="" Tooltip="#menu.close.tooltip" onclick=@Close>#menu.close.name</button>
 				</div>
@@ -63,6 +67,8 @@
 	// Close UI (Back)
 	void Close()
 	{
+		SoundsManagerComponent.Instance.UISelect();
+
 		SiegeInputComponent.Instance.RequestCancelAction();
 	}
 
@@ -81,6 +87,8 @@
 	// Change Rotation
 	void RotateLeft()
 	{
+		SoundsManagerComponent.Instance.UISelect();
+
 		SiegeInputComponent.Instance.RequestSiegeTurnLeft();
 	}
 
@@ -91,6 +99,8 @@
 
 	void RotateRight()
 	{
+		SoundsManagerComponent.Instance.UISelect();
+
 		SiegeInputComponent.Instance.RequestSiegeTurnRight();
 	}
 
@@ -103,11 +113,15 @@
 
 	void FirePowerIncrease()
 	{
+		SoundsManagerComponent.Instance.UISelect();
+
 		SiegeInputComponent.Instance.RequestSiegePowerUp();
 	}
 
 	void FirePowerDecrease()
 	{
+		SoundsManagerComponent.Instance.UISelect();
+
 		SiegeInputComponent.Instance.RequestSiegePowerDown();
 	}
 

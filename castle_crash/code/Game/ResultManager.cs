@@ -3,7 +3,7 @@ using Sandbox;
 
 public sealed class ResultManagerComponent : Component
 {
-	[Property] public float UpdateFrequency = 3;
+	[Property] public float UpdateFrequency { get; set; } = 5;
 	float Timer = 0;
 
 	protected override void OnUpdate()

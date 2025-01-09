@@ -51,6 +51,9 @@ public sealed class SiegeMachineComponent : Component
 		// Fire
 		RigidbodyComp.ApplyForce( Fire_Spawn_Loc.WorldTransform.Forward * FirePower * RigidbodyComp.Mass * 10000 );
 
+		// Sound
+		SoundsManagerComponent.Instance.SiegeFire( Fire_Spawn_Loc.WorldPosition );
+
 		// Stats
 		StatsManagerComponent.Instance.ProjectileShot();
 	}
