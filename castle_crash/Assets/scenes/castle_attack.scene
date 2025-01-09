@@ -285,7 +285,17 @@
         {
           "__type": "ResultManagerComponent",
           "__guid": "3db5fc19-6909-4c8d-a553-29431f67d86c",
-          "UpdateFrequency": 1,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "UpdateFrequency": 5
+        },
+        {
+          "__type": "SoundsManagerComponent",
+          "__guid": "f1682cc3-3d7b-43da-8395-eea846281510",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -3154,7 +3164,7 @@
               "__guid": "eb4d5c63-77fc-44b6-9b43-b9044f4bcd62",
               "Flags": 0,
               "Name": "rocks_small (8)",
-              "Position": "646.1979,-392.9436,0",
+              "Position": "646.198,-392.9436,0",
               "Rotation": "0,0,-0.8678699,-0.4967914",
               "Scale": "0.6666667,0.6666667,0.6666667",
               "Tags": "solid",
