@@ -12,7 +12,7 @@ public sealed class FractureTest : Component
 
 	protected override void OnUpdate()
 	{
-		if (bManualBreak && Input.Pressed("Flashlight"))
+		if (bManualBreak && Input.Pressed("FreeCameraEnable"))
 		{
 			ExecuteDestruction();
 		}

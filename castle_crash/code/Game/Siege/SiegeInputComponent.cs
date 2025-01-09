@@ -51,7 +51,7 @@ public sealed class SiegeInputComponent : Component
 		}
 
 		// Select
-		if ( Input.Pressed( "attack1" ) && HighlightedCell is not null && HighlightedCell != SelectedCell )
+		if ( Input.Pressed( "Select" ) && HighlightedCell is not null && HighlightedCell != SelectedCell )
 		{
 			SelectedCell?.Deselect();
 			SelectedCell = null;
@@ -70,7 +70,7 @@ public sealed class SiegeInputComponent : Component
 		}
 
 		// DeSelect
-		if ( SelectedCell is not null && Input.Pressed( "attack2" ) )
+		if ( SelectedCell is not null && Input.Pressed( "DeSelect" ) )
 		{
 			RequestCancelAction();
 		}
