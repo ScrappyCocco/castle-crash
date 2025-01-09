@@ -1,0 +1,34 @@
+@using Sandbox;
+@using Sandbox.UI;
+@namespace CastleCrash
+@inherits PanelComponent
+
+<root>
+	<div class="enable-mouse" />
+
+	@if (!GameManager.Instance.IsValid())
+	{
+		@* Wait a moment *@
+		<WaitingHud />
+			
+		return;
+	}
+
+	@if (GameManager.Instance.GameState == GameState.Waiting)
+	{
+		<WaitingHud />
+	}
+	else if (GameManager.Instance.GameState == GameState.Playing)
+	{
+		<GameHud />
+	}
+	else if (GameManager.Instance.GameState == GameState.Results)
+	{
+		<ResultsHud />
+	}
+</root>
+
+@code
+{
+	protected override int BuildHash() => System.HashCode.Combine(GameManager.Instance.GameState);
+}

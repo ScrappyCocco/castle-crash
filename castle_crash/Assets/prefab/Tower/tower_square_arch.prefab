@@ -1,0 +1,77 @@
+{
+  "RootObject": {
+    "__guid": "2eac8be9-6ff8-4a76-ba32-11695b4c46b2",
+    "Flags": 0,
+    "Name": "tower_square_arch",
+    "Tags": "destructible",
+    "Enabled": true,
+    "NetworkMode": 1,
+    "Components": [
+      {
+        "__type": "CastleCustomPropComponent",
+        "__guid": "bc53bcc9-f336-46ad-afdd-571f6619e38a",
+        "bLocalForceDefaultPropKill": false,
+        "BodyGroups": 18446744073709551615,
+        "BrokenPiecesMaterialGroup": "broken",
+        "Health": 0,
+        "IsStatic": true,
+        "MaterialGroup": null,
+        "Model": "models/tower-square-arch/tower_square_arch.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnPropBreak": null,
+        "OnPropTakeDamage": null,
+        "StartAsleep": false,
+        "SurfaceNameForSoundToPlay": "default",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "CastleDestructiblePieceComponent",
+        "__guid": "b7256360-c99a-4ac3-b4f9-dc02f0a4657c",
+        "bCauseChainBreakToUpperPieces": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

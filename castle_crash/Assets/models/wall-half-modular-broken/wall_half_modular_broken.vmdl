@@ -1,0 +1,122 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/wall-half-modular-broken/wall-half-modular-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"wall_half_modular",
+								"wall_half_modular_cell",
+								"wall_half_modular_cell_001",
+								"wall_half_modular_cell_002",
+								"wall_half_modular_cell_003",
+								"wall_half_modular_cell_004",
+								"wall_half_modular_cell_005",
+								"wall_half_modular_cell_006",
+								"wall_half_modular_cell_007",
+								"wall_half_modular_cell_008",
+								"wall_half_modular_cell_009",
+								"wall_half_modular_cell_010",
+								"wall_half_modular_cell_011",
+								"wall_half_modular_cell_012",
+								"wall_half_modular_cell_013",
+								"wall_half_modular_cell_014",
+								"wall_half_modular_cell_015",
+								"wall_half_modular_cell_016",
+								"wall_half_modular_cell_017",
+								"wall_half_modular_cell_018",
+								"wall_half_modular_cell_019",
+								"wall_half_modular_cell_020",
+								"wall_half_modular_cell_021",
+								"wall_half_modular_cell_022",
+								"wall_half_modular_cell_023",
+								"wall_half_modular_cell_024",
+								"wall_half_modular_cell_025",
+								"wall_half_modular_cell_026",
+								"wall_half_modular_cell_027",
+								"wall_half_modular_cell_028",
+								"wall_half_modular_cell_029",
+								"wall_half_modular_cell_030",
+								"wall_half_modular_cell_031",
+								"wall_half_modular_cell_032",
+								"wall_half_modular_cell_033",
+								"wall_half_modular_cell_034",
+								"wall_half_modular_cell_035",
+								"wall_half_modular_cell_036",
+								"wall_half_modular_cell_037",
+								"wall_half_modular_cell_038",
+								"wall_half_modular_cell_039",
+								"wall_half_modular_cell_040",
+								"wall_half_modular_cell_041",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

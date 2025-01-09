@@ -1,0 +1,156 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/wall-doorway-broken/wall-doorway-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"wall_doorway",
+								"wall_doorway_cell",
+								"wall_doorway_cell_001",
+								"wall_doorway_cell_002",
+								"wall_doorway_cell_003",
+								"wall_doorway_cell_004",
+								"wall_doorway_cell_005",
+								"wall_doorway_cell_006",
+								"wall_doorway_cell_007",
+								"wall_doorway_cell_008",
+								"wall_doorway_cell_009",
+								"wall_doorway_cell_010",
+								"wall_doorway_cell_011",
+								"wall_doorway_cell_012",
+								"wall_doorway_cell_013",
+								"wall_doorway_cell_014",
+								"wall_doorway_cell_015",
+								"wall_doorway_cell_016",
+								"wall_doorway_cell_017",
+								"wall_doorway_cell_018",
+								"wall_doorway_cell_019",
+								"wall_doorway_cell_020",
+								"wall_doorway_cell_021",
+								"wall_doorway_cell_022",
+								"wall_doorway_cell_023",
+								"wall_doorway_cell_024",
+								"wall_doorway_cell_025",
+								"wall_doorway_cell_026",
+								"wall_doorway_cell_027",
+								"wall_doorway_cell_028",
+								"wall_doorway_cell_029",
+								"wall_doorway_cell_030",
+								"wall_doorway_cell_031",
+								"wall_doorway_cell_032",
+								"wall_doorway_cell_033",
+								"wall_doorway_cell_034",
+								"wall_doorway_cell_035",
+								"wall_doorway_cell_036",
+								"wall_doorway_cell_037",
+								"wall_doorway_cell_038",
+								"wall_doorway_cell_039",
+								"wall_doorway_cell_040",
+								"wall_doorway_cell_041",
+								"wall_doorway_cell_042",
+								"wall_doorway_cell_043",
+								"wall_doorway_cell_044",
+								"wall_doorway_cell_045",
+								"wall_doorway_cell_046",
+								"wall_doorway_cell_047",
+								"wall_doorway_cell_048",
+								"wall_doorway_cell_049",
+								"wall_doorway_cell_050",
+								"wall_doorway_cell_051",
+								"wall_doorway_cell_052",
+								"wall_doorway_cell_053",
+								"wall_doorway_cell_054",
+								"wall_doorway_cell_055",
+								"wall_doorway_cell_056",
+								"wall_doorway_cell_057",
+								"wall_doorway_cell_058",
+								"wall_doorway_cell_059",
+								"wall_doorway_cell_060",
+								"wall_doorway_cell_061",
+								"wall_doorway_cell_062",
+								"wall_doorway_cell_063",
+								"wall_doorway_cell_064",
+								"wall_doorway_cell_065",
+								"wall_doorway_cell_066",
+								"wall_doorway_cell_067",
+								"wall_doorway_cell_068",
+								"wall_doorway_cell_069",
+								"wall_doorway_cell_070",
+								"wall_doorway_cell_071",
+								"wall_doorway_cell_072",
+								"wall_doorway_cell_073",
+								"wall_doorway_cell_074",
+								"wall_doorway_cell_075",
+								"wall_doorway_cell_076",
+								"wall_doorway_cell_077",
+								"wall_doorway_cell_078",
+								"wall_doorway_cell_079",
+								"wall_doorway_cell_080",
+								"wall_doorway_cell_081",
+								"wall_doorway_cell_082",
+								"wall_doorway_cell_083",
+								"wall_doorway_cell_084",
+								"wall_doorway_cell_085",
+								"wall_doorway_cell_086",
+								"wall_doorway_cell_087",
+								"wall_doorway_cell_088",
+								"wall_doorway_cell_089",
+								"wall_doorway_cell_090",
+								"wall_doorway_cell_091",
+								"wall_doorway_cell_092",
+								"wall_doorway_cell_093",
+								"wall_doorway_cell_094",
+								"wall_doorway_cell_095",
+								"wall_doorway_cell_096",
+								"wall_doorway_cell_097",
+								"wall_doorway_cell_098",
+								"wall_doorway_cell_099",
+								"wall_doorway_cell_100",
+								"wall_doorway_cell_101",
+								"wall_doorway_cell_102",
+								"wall_doorway_cell_103",
+								"wall_doorway_cell_104",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

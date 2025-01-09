@@ -1,0 +1,134 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/stairs-stone-broken/stairs-stone-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"stairs_stone",
+								"stairs_stone_cell",
+								"stairs_stone_cell_001",
+								"stairs_stone_cell_002",
+								"stairs_stone_cell_003",
+								"stairs_stone_cell_004",
+								"stairs_stone_cell_005",
+								"stairs_stone_cell_006",
+								"stairs_stone_cell_007",
+								"stairs_stone_cell_008",
+								"stairs_stone_cell_009",
+								"stairs_stone_cell_010",
+								"stairs_stone_cell_011",
+								"stairs_stone_cell_012",
+								"stairs_stone_cell_013",
+								"stairs_stone_cell_014",
+								"stairs_stone_cell_015",
+								"stairs_stone_cell_016",
+								"stairs_stone_cell_017",
+								"stairs_stone_cell_018",
+								"stairs_stone_cell_019",
+								"stairs_stone_cell_020",
+								"stairs_stone_cell_021",
+								"stairs_stone_cell_022",
+								"stairs_stone_cell_023",
+								"stairs_stone_cell_024",
+								"stairs_stone_cell_025",
+								"stairs_stone_cell_026",
+								"stairs_stone_cell_027",
+								"stairs_stone_cell_028",
+								"stairs_stone_cell_029",
+								"stairs_stone_cell_030",
+								"stairs_stone_cell_031",
+								"stairs_stone_cell_032",
+								"stairs_stone_cell_033",
+								"stairs_stone_cell_034",
+								"stairs_stone_cell_035",
+								"stairs_stone_cell_036",
+								"stairs_stone_cell_037",
+								"stairs_stone_cell_038",
+								"stairs_stone_cell_039",
+								"stairs_stone_cell_040",
+								"stairs_stone_cell_041",
+								"stairs_stone_cell_042",
+								"stairs_stone_cell_043",
+								"stairs_stone_cell_044",
+								"stairs_stone_cell_045",
+								"stairs_stone_cell_046",
+								"stairs_stone_cell_047",
+								"stairs_stone_cell_048",
+								"stairs_stone_cell_049",
+								"stairs_stone_cell_050",
+								"stairs_stone_cell_051",
+								"stairs_stone_cell_052",
+								"stairs_stone_cell_053",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

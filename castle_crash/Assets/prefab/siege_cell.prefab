@@ -1,0 +1,102 @@
+{
+  "RootObject": {
+    "__guid": "05cbb51e-634b-4bb8-8cb4-87bdba667e08",
+    "Flags": 0,
+    "Name": "siege_cell",
+    "Scale": "2,2,1",
+    "Tags": "siege_cell",
+    "Enabled": true,
+    "NetworkMode": 1,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "82e9f1ec-8d24-48bb-bb98-99b66f0d73c0",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "MaterialOverride": "materials/default.vmat",
+        "Model": "models/dev/plane.vmdl",
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "0.83262,0.86977,0.7929,1"
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "09011007-f582-43b6-aa15-0e9623f7e77c",
+        "Center": "0,0,-5",
+        "IsTrigger": false,
+        "Scale": "100,100,10",
+        "Static": true,
+        "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "SiegeCellComponent",
+        "__guid": "d5c88744-6170-4d46-830c-775c2d452552",
+        "Renderer": {
+          "_type": "component",
+          "component_id": "82e9f1ec-8d24-48bb-bb98-99b66f0d73c0",
+          "go": "05cbb51e-634b-4bb8-8cb4-87bdba667e08",
+          "component_type": "ModelRenderer"
+        },
+        "Siege_Catapult_Spawn_Loc": {
+          "_type": "gameobject",
+          "go": "e5c3c6af-2e7a-48c2-8ba3-f03fa2f6fada"
+        },
+        "Siege_Trebuchet_Spawn_Loc": {
+          "_type": "gameobject",
+          "go": "912157cb-0c63-4a32-8262-011752f7ea00"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "e5c3c6af-2e7a-48c2-8ba3-f03fa2f6fada",
+        "Flags": 0,
+        "Name": "Spawn_Catapult_Loc",
+        "Position": "0,0,12",
+        "Enabled": true
+      },
+      {
+        "__guid": "912157cb-0c63-4a32-8262-011752f7ea00",
+        "Flags": 0,
+        "Name": "Spawn_Trebuchet_Loc",
+        "Enabled": true
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

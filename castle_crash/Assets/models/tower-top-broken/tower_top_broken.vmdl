@@ -1,0 +1,151 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/tower-top-broken/tower-top-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"tower_top",
+								"tower_top_cell",
+								"tower_top_cell_001",
+								"tower_top_cell_002",
+								"tower_top_cell_003",
+								"tower_top_cell_004",
+								"tower_top_cell_005",
+								"tower_top_cell_006",
+								"tower_top_cell_007",
+								"tower_top_cell_008",
+								"tower_top_cell_009",
+								"tower_top_cell_010",
+								"tower_top_cell_011",
+								"tower_top_cell_012",
+								"tower_top_cell_013",
+								"tower_top_cell_014",
+								"tower_top_cell_015",
+								"tower_top_cell_016",
+								"tower_top_cell_017",
+								"tower_top_cell_018",
+								"tower_top_cell_019",
+								"tower_top_cell_020",
+								"tower_top_cell_021",
+								"tower_top_cell_022",
+								"tower_top_cell_023",
+								"tower_top_cell_024",
+								"tower_top_cell_025",
+								"tower_top_cell_026",
+								"tower_top_cell_027",
+								"tower_top_cell_028",
+								"tower_top_cell_029",
+								"tower_top_cell_030",
+								"tower_top_cell_031",
+								"tower_top_cell_032",
+								"tower_top_cell_033",
+								"tower_top_cell_034",
+								"tower_top_cell_035",
+								"tower_top_cell_036",
+								"tower_top_cell_037",
+								"tower_top_cell_038",
+								"tower_top_cell_039",
+								"tower_top_cell_040",
+								"tower_top_cell_041",
+								"tower_top_cell_042",
+								"tower_top_cell_043",
+								"tower_top_cell_044",
+								"tower_top_cell_045",
+								"tower_top_cell_046",
+								"tower_top_cell_047",
+								"tower_top_cell_048",
+								"tower_top_cell_049",
+								"tower_top_cell_050",
+								"tower_top_cell_051",
+								"tower_top_cell_052",
+								"tower_top_cell_053",
+								"tower_top_cell_054",
+								"tower_top_cell_055",
+								"tower_top_cell_056",
+								"tower_top_cell_057",
+								"tower_top_cell_058",
+								"tower_top_cell_059",
+								"tower_top_cell_060",
+								"tower_top_cell_061",
+								"tower_top_cell_062",
+								"tower_top_cell_063",
+								"tower_top_cell_064",
+								"tower_top_cell_065",
+								"tower_top_cell_066",
+								"tower_top_cell_067",
+								"tower_top_cell_068",
+								"tower_top_cell_069",
+								"tower_top_cell_070",
+								"tower_top_cell_071",
+								"tower_top_cell_072",
+								"tower_top_cell_073",
+								"tower_top_cell_074",
+								"tower_top_cell_075",
+								"tower_top_cell_076",
+								"tower_top_cell_077",
+								"tower_top_cell_078",
+								"tower_top_cell_079",
+								"tower_top_cell_080",
+								"tower_top_cell_081",
+								"tower_top_cell_082",
+								"tower_top_cell_083",
+								"tower_top_cell_084",
+								"tower_top_cell_085",
+								"tower_top_cell_086",
+								"tower_top_cell_087",
+								"tower_top_cell_088",
+								"tower_top_cell_089",
+								"tower_top_cell_090",
+								"tower_top_cell_091",
+								"tower_top_cell_092",
+								"tower_top_cell_093",
+								"tower_top_cell_094",
+								"tower_top_cell_095",
+								"tower_top_cell_096",
+								"tower_top_cell_097",
+								"tower_top_cell_098",
+								"tower_top_cell_099",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

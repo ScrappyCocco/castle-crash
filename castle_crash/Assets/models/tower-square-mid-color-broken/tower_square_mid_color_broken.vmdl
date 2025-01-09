@@ -1,0 +1,79 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/tower-square-mid-color-broken/tower-square-mid-color-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"tower_square_mid_color",
+								"tower_square_mid_color_cell",
+								"tower_square_mid_color_cell_001",
+								"tower_square_mid_color_cell_002",
+								"tower_square_mid_color_cell_003",
+								"tower_square_mid_color_cell_004",
+								"tower_square_mid_color_cell_005",
+								"tower_square_mid_color_cell_006",
+								"tower_square_mid_color_cell_007",
+								"tower_square_mid_color_cell_008",
+								"tower_square_mid_color_cell_009",
+								"tower_square_mid_color_cell_010",
+								"tower_square_mid_color_cell_011",
+								"tower_square_mid_color_cell_012",
+								"tower_square_mid_color_cell_013",
+								"tower_square_mid_color_cell_014",
+								"tower_square_mid_color_cell_015",
+								"tower_square_mid_color_cell_016",
+								"tower_square_mid_color_cell_017",
+								"tower_square_mid_color_cell_018",
+								"tower_square_mid_color_cell_019",
+								"tower_square_mid_color_cell_020",
+								"tower_square_mid_color_cell_021",
+								"tower_square_mid_color_cell_022",
+								"tower_square_mid_color_cell_023",
+								"tower_square_mid_color_cell_024",
+								"tower_square_mid_color_cell_025",
+								"tower_square_mid_color_cell_026",
+								"tower_square_mid_color_cell_027",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

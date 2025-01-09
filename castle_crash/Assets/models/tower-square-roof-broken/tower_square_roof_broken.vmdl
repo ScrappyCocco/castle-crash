@@ -1,0 +1,152 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/tower-square-roof-broken/tower-square-roof-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"tower_square_roof",
+								"tower_square_roof_cell",
+								"tower_square_roof_cell_001",
+								"tower_square_roof_cell_002",
+								"tower_square_roof_cell_003",
+								"tower_square_roof_cell_004",
+								"tower_square_roof_cell_005",
+								"tower_square_roof_cell_006",
+								"tower_square_roof_cell_007",
+								"tower_square_roof_cell_008",
+								"tower_square_roof_cell_009",
+								"tower_square_roof_cell_010",
+								"tower_square_roof_cell_011",
+								"tower_square_roof_cell_012",
+								"tower_square_roof_cell_013",
+								"tower_square_roof_cell_014",
+								"tower_square_roof_cell_015",
+								"tower_square_roof_cell_016",
+								"tower_square_roof_cell_017",
+								"tower_square_roof_cell_018",
+								"tower_square_roof_cell_019",
+								"tower_square_roof_cell_020",
+								"tower_square_roof_cell_021",
+								"tower_square_roof_cell_022",
+								"tower_square_roof_cell_023",
+								"tower_square_roof_cell_024",
+								"tower_square_roof_cell_025",
+								"tower_square_roof_cell_026",
+								"tower_square_roof_cell_027",
+								"tower_square_roof_cell_028",
+								"tower_square_roof_cell_029",
+								"tower_square_roof_cell_030",
+								"tower_square_roof_cell_031",
+								"tower_square_roof_cell_032",
+								"tower_square_roof_cell_033",
+								"tower_square_roof_cell_034",
+								"tower_square_roof_cell_035",
+								"tower_square_roof_cell_036",
+								"tower_square_roof_cell_037",
+								"tower_square_roof_cell_038",
+								"tower_square_roof_cell_039",
+								"tower_square_roof_cell_040",
+								"tower_square_roof_cell_041",
+								"tower_square_roof_cell_042",
+								"tower_square_roof_cell_043",
+								"tower_square_roof_cell_044",
+								"tower_square_roof_cell_045",
+								"tower_square_roof_cell_046",
+								"tower_square_roof_cell_047",
+								"tower_square_roof_cell_048",
+								"tower_square_roof_cell_049",
+								"tower_square_roof_cell_050",
+								"tower_square_roof_cell_051",
+								"tower_square_roof_cell_052",
+								"tower_square_roof_cell_053",
+								"tower_square_roof_cell_054",
+								"tower_square_roof_cell_055",
+								"tower_square_roof_cell_056",
+								"tower_square_roof_cell_057",
+								"tower_square_roof_cell_058",
+								"tower_square_roof_cell_059",
+								"tower_square_roof_cell_060",
+								"tower_square_roof_cell_061",
+								"tower_square_roof_cell_062",
+								"tower_square_roof_cell_063",
+								"tower_square_roof_cell_064",
+								"tower_square_roof_cell_065",
+								"tower_square_roof_cell_066",
+								"tower_square_roof_cell_067",
+								"tower_square_roof_cell_068",
+								"tower_square_roof_cell_069",
+								"tower_square_roof_cell_070",
+								"tower_square_roof_cell_071",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

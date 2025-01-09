@@ -1,0 +1,154 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/wall-corner-half-broken/wall-corner-half-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"wall_corner_half",
+								"wall_corner_half_cell",
+								"wall_corner_half_cell_001",
+								"wall_corner_half_cell_002",
+								"wall_corner_half_cell_003",
+								"wall_corner_half_cell_004",
+								"wall_corner_half_cell_005",
+								"wall_corner_half_cell_006",
+								"wall_corner_half_cell_007",
+								"wall_corner_half_cell_008",
+								"wall_corner_half_cell_009",
+								"wall_corner_half_cell_010",
+								"wall_corner_half_cell_011",
+								"wall_corner_half_cell_012",
+								"wall_corner_half_cell_013",
+								"wall_corner_half_cell_014",
+								"wall_corner_half_cell_015",
+								"wall_corner_half_cell_016",
+								"wall_corner_half_cell_017",
+								"wall_corner_half_cell_018",
+								"wall_corner_half_cell_019",
+								"wall_corner_half_cell_020",
+								"wall_corner_half_cell_021",
+								"wall_corner_half_cell_022",
+								"wall_corner_half_cell_023",
+								"wall_corner_half_cell_024",
+								"wall_corner_half_cell_025",
+								"wall_corner_half_cell_026",
+								"wall_corner_half_cell_027",
+								"wall_corner_half_cell_028",
+								"wall_corner_half_cell_029",
+								"wall_corner_half_cell_030",
+								"wall_corner_half_cell_031",
+								"wall_corner_half_cell_032",
+								"wall_corner_half_cell_033",
+								"wall_corner_half_cell_034",
+								"wall_corner_half_cell_035",
+								"wall_corner_half_cell_036",
+								"wall_corner_half_cell_037",
+								"wall_corner_half_cell_038",
+								"wall_corner_half_cell_039",
+								"wall_corner_half_cell_040",
+								"wall_corner_half_cell_041",
+								"wall_corner_half_cell_042",
+								"wall_corner_half_cell_043",
+								"wall_corner_half_cell_044",
+								"wall_corner_half_cell_045",
+								"wall_corner_half_cell_046",
+								"wall_corner_half_cell_047",
+								"wall_corner_half_cell_048",
+								"wall_corner_half_cell_049",
+								"wall_corner_half_cell_050",
+								"wall_corner_half_cell_051",
+								"wall_corner_half_cell_052",
+								"wall_corner_half_cell_053",
+								"wall_corner_half_cell_054",
+								"wall_corner_half_cell_055",
+								"wall_corner_half_cell_056",
+								"wall_corner_half_cell_057",
+								"wall_corner_half_cell_058",
+								"wall_corner_half_cell_059",
+								"wall_corner_half_cell_060",
+								"wall_corner_half_cell_061",
+								"wall_corner_half_cell_062",
+								"wall_corner_half_cell_063",
+								"wall_corner_half_cell_064",
+								"wall_corner_half_cell_065",
+								"wall_corner_half_cell_066",
+								"wall_corner_half_cell_067",
+								"wall_corner_half_cell_068",
+								"wall_corner_half_cell_069",
+								"wall_corner_half_cell_070",
+								"wall_corner_half_cell_071",
+								"wall_corner_half_cell_072",
+								"wall_corner_half_cell_073",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

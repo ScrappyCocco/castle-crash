@@ -1,0 +1,116 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/tower-hexagon-base-broken/tower-hexagon-base-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"tower_hexagon_base",
+								"tower_hexagon_base_cell",
+								"tower_hexagon_base_cell_001",
+								"tower_hexagon_base_cell_002",
+								"tower_hexagon_base_cell_003",
+								"tower_hexagon_base_cell_004",
+								"tower_hexagon_base_cell_005",
+								"tower_hexagon_base_cell_006",
+								"tower_hexagon_base_cell_007",
+								"tower_hexagon_base_cell_008",
+								"tower_hexagon_base_cell_009",
+								"tower_hexagon_base_cell_010",
+								"tower_hexagon_base_cell_011",
+								"tower_hexagon_base_cell_012",
+								"tower_hexagon_base_cell_013",
+								"tower_hexagon_base_cell_014",
+								"tower_hexagon_base_cell_015",
+								"tower_hexagon_base_cell_016",
+								"tower_hexagon_base_cell_017",
+								"tower_hexagon_base_cell_018",
+								"tower_hexagon_base_cell_019",
+								"tower_hexagon_base_cell_020",
+								"tower_hexagon_base_cell_021",
+								"tower_hexagon_base_cell_022",
+								"tower_hexagon_base_cell_023",
+								"tower_hexagon_base_cell_024",
+								"tower_hexagon_base_cell_025",
+								"tower_hexagon_base_cell_026",
+								"tower_hexagon_base_cell_027",
+								"tower_hexagon_base_cell_028",
+								"tower_hexagon_base_cell_029",
+								"tower_hexagon_base_cell_030",
+								"tower_hexagon_base_cell_031",
+								"tower_hexagon_base_cell_032",
+								"tower_hexagon_base_cell_033",
+								"tower_hexagon_base_cell_034",
+								"tower_hexagon_base_cell_035",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

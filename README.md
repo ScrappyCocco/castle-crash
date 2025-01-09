@@ -14,9 +14,7 @@ A small destruction minigame 🏰
 
 ## Play Now
 
-You can try the game yourself in [s&box here](https://github.com/ScrappyCocco/castle-crash/wiki).
-
-![sample clip of the game](Images/sample_clip.webp)
+You can try the game yourself in [s&box here - castle_crash](https://sbox.game/scrappycocco/castle_crash/).
 
 ## Description
 
@@ -36,11 +34,13 @@ It was during the first days of 2025 that I begun seriously thinking about what 
 The only problem was that I **never** touched the Source Engine, Garry's Mod or s&box before, so I had to start completely from scratch. Because of that little pieces of this project are copied/inspired by [Facepunch battlebugs minigame](https://github.com/Facepunch/sbox-battlebugs), as the mouse input logic or the general waiting-playing-result GameState.
 I recommend every new developer to check out Facepunch's example as they provide some nice insights about how to develop some parts.
 
-Thinking and browsing Kenney's assets I decided to do some destruction with the Castle Kit. At this point I had lots of ideas: maybe you can build your own castle; or you have to destroy each other's castle, built or not vs the AI or another player; or maybe the castle is gonna be randomly generated;
+Thinking and browsing [Kenney's assets](https://kenney.nl/assets/category:3D) I decided to do some destruction with the Castle Kit. At this point I had lots of ideas: maybe you can build your own castle; or you have to destroy each other's castle, built or not vs the AI or another player; or maybe the castle is gonna be randomly generated;
 
 Doing the firsts destruction tests, I understood that the easies thing to do with the time I had was everyone attacking a single castle together, and so I implemented that. I have to admit half the work was creating, importing and setting up the models correctly.
 
 There have been multiple logic changes about the projectile/destructible logic, some of which are written in the [Wiki](#wiki-anchor).
+
+The project was developed in ~30h during my free time.
 
 ## Controls
 
@@ -54,7 +54,7 @@ Most of the game is played using the mouse, there are a few keys you can use:
 
 ## Used assets
 
-All assets used are free to use under the Creative Commons CC0 license.
+All assets used are from [Kenney's assets](https://kenney.nl/assets/category:3D) and free to use under the Creative Commons CC0 license.
 
 You can find a summary of the used in the [ASSETS](ASSETS.md) file.
 
@@ -64,7 +64,7 @@ The game is not perfect as it was made for a Jam in a little time with an Engine
 
 If you want to report a problem, or if you want to improve it with a new feature, a fix, or a new map, free to open an Issue, a PullRequest or a Discussion.
 
-Remember the game was developed with the developer preview of s&box and might break or no longer be playable in the future.
+**Remember the game was developed with the developer preview of s&box and might break or no longer be playable in the future.**
 
 ## How did you make that / How does it work / How can I edit it
 
@@ -72,3 +72,5 @@ Remember the game was developed with the developer preview of s&box and might br
 I wrote a little documentation about the project in the [Wiki](https://github.com/ScrappyCocco/castle-crash/wiki).
 
 If you don't find what are you looking for feel free to open an Issue or a Discussion and ask!
+
+![sample clip of the game](Images/sample_clip.webp)

@@ -1,0 +1,88 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/bridge-drawn-broken/bridge-drawn-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"bridge_draw",
+								"bridge_draw_cell",
+								"bridge_draw_cell_001",
+								"bridge_draw_cell_002",
+								"bridge_draw_cell_003",
+								"bridge_draw_cell_004",
+								"bridge_draw_cell_005",
+								"bridge_draw_cell_006",
+								"bridge_draw_cell_007",
+								"bridge_draw_cell_008",
+								"bridge_draw_cell_009",
+								"bridge_draw_cell_010",
+								"bridge_draw_cell_011",
+								"bridge_draw_cell_012",
+								"bridge_draw_cell_013",
+								"bridge_draw_cell_014",
+								"bridge_draw_cell_015",
+								"bridge_draw_cell_016",
+								"bridge_draw_cell_017",
+								"bridge_draw_cell_018",
+								"bridge_draw_cell_019",
+								"bridge_draw_cell_020",
+								"bridge_draw_cell_021",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

@@ -1,0 +1,15 @@
+@using Sandbox.UI;
+@namespace CastleCrash
+@inherits Panel
+@attribute [StyleSheet]
+
+<root>
+	<div class="container">
+		<label>#menu.results.name</label>
+	</div>
+</root>
+
+@code
+{
+	protected override int BuildHash() => System.HashCode.Combine(GameManager.Instance.GameState, GameManager.Instance.PlayerState);
+}

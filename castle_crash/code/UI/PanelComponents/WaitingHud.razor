@@ -1,0 +1,50 @@
+@using Sandbox;
+@using Sandbox.UI;
+@using Sandbox.Network;
+@namespace CastleCrash
+@inherits Panel
+@attribute [StyleSheet]
+
+<root>
+	<label>#menu.waiting.name</label><label>(@Connection.All.Count/4)</label><label>@GetRemainingTime()</label>
+	<ul>
+		@foreach (var Connection in Connection.All.ToList())
+		{
+			<li>
+				<label>@Connection.DisplayName</label>
+				<img src=@($"avatar:{Connection.SteamId}") />
+			</li>
+		}
+	</ul>
+	@if ( Networking.IsHost )
+    {
+		<button class="" Tooltip="#menu.start.tooltip" onclick=@StartGameNow>#menu.start.name</button>
+	}
+</root>
+
+@code
+{
+	public static WaitingHud Instance { get; private set; }
+
+	protected override void OnAfterTreeRender(bool firstTime)
+	{
+		base.OnAfterTreeRender(firstTime);
+
+		if (firstTime)
+		{
+			Instance = this;
+		}
+	}
+
+	string GetRemainingTime()
+	{
+		return (GameManager.Instance.OtherPlayersWaitTimer - GameManager.Instance.WaitingTime).CeilToInt().ToString();
+	}
+
+	void StartGameNow()
+	{
+		GameManager.Instance.StartGame();
+	}
+
+	protected override int BuildHash() => System.HashCode.Combine(GameManager.Instance.GameState, GameManager.Instance.WaitingTime);
+}

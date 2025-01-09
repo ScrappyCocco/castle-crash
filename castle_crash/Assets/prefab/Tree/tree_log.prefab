@@ -1,0 +1,44 @@
+{
+  "RootObject": {
+    "__guid": "e6ccf2ec-f625-4b41-9d72-35b4894f6538",
+    "Flags": 0,
+    "Name": "tree_log",
+    "Position": "-2000,1850,10.56551",
+    "Tags": "solid",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "0607b07f-23e3-4fc0-a6cd-14567e460dc0",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "Model": "models/tree-log/tree_log.vmdl",
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "Sandbox.CapsuleCollider",
+        "__guid": "a22b96eb-e897-4962-ade7-04aec50c48ab",
+        "End": "40,0,0",
+        "IsTrigger": false,
+        "Radius": 16,
+        "Start": "-40,0,0",
+        "Static": true,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

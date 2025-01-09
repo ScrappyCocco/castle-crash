@@ -1,0 +1,145 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/wall-pillar-broken/wall-pillar-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"wall_pillar",
+								"wall_pillar_cell",
+								"wall_pillar_cell_001",
+								"wall_pillar_cell_002",
+								"wall_pillar_cell_003",
+								"wall_pillar_cell_004",
+								"wall_pillar_cell_005",
+								"wall_pillar_cell_006",
+								"wall_pillar_cell_007",
+								"wall_pillar_cell_008",
+								"wall_pillar_cell_009",
+								"wall_pillar_cell_010",
+								"wall_pillar_cell_011",
+								"wall_pillar_cell_012",
+								"wall_pillar_cell_013",
+								"wall_pillar_cell_014",
+								"wall_pillar_cell_015",
+								"wall_pillar_cell_016",
+								"wall_pillar_cell_017",
+								"wall_pillar_cell_018",
+								"wall_pillar_cell_019",
+								"wall_pillar_cell_020",
+								"wall_pillar_cell_021",
+								"wall_pillar_cell_022",
+								"wall_pillar_cell_023",
+								"wall_pillar_cell_024",
+								"wall_pillar_cell_025",
+								"wall_pillar_cell_026",
+								"wall_pillar_cell_027",
+								"wall_pillar_cell_028",
+								"wall_pillar_cell_029",
+								"wall_pillar_cell_030",
+								"wall_pillar_cell_031",
+								"wall_pillar_cell_032",
+								"wall_pillar_cell_033",
+								"wall_pillar_cell_034",
+								"wall_pillar_cell_035",
+								"wall_pillar_cell_036",
+								"wall_pillar_cell_037",
+								"wall_pillar_cell_038",
+								"wall_pillar_cell_039",
+								"wall_pillar_cell_040",
+								"wall_pillar_cell_041",
+								"wall_pillar_cell_042",
+								"wall_pillar_cell_043",
+								"wall_pillar_cell_044",
+								"wall_pillar_cell_045",
+								"wall_pillar_cell_046",
+								"wall_pillar_cell_047",
+								"wall_pillar_cell_048",
+								"wall_pillar_cell_049",
+								"wall_pillar_cell_050",
+								"wall_pillar_cell_051",
+								"wall_pillar_cell_052",
+								"wall_pillar_cell_053",
+								"wall_pillar_cell_054",
+								"wall_pillar_cell_055",
+								"wall_pillar_cell_056",
+								"wall_pillar_cell_057",
+								"wall_pillar_cell_058",
+								"wall_pillar_cell_059",
+								"wall_pillar_cell_060",
+								"wall_pillar_cell_061",
+								"wall_pillar_cell_062",
+								"wall_pillar_cell_063",
+								"wall_pillar_cell_064",
+								"wall_pillar_cell_065",
+								"wall_pillar_cell_066",
+								"wall_pillar_cell_067",
+								"wall_pillar_cell_068",
+								"wall_pillar_cell_069",
+								"wall_pillar_cell_070",
+								"wall_pillar_cell_071",
+								"wall_pillar_cell_072",
+								"wall_pillar_cell_073",
+								"wall_pillar_cell_074",
+								"wall_pillar_cell_075",
+								"wall_pillar_cell_076",
+								"wall_pillar_cell_077",
+								"wall_pillar_cell_078",
+								"wall_pillar_cell_079",
+								"wall_pillar_cell_080",
+								"wall_pillar_cell_081",
+								"wall_pillar_cell_082",
+								"wall_pillar_cell_083",
+								"wall_pillar_cell_084",
+								"wall_pillar_cell_085",
+								"wall_pillar_cell_086",
+								"wall_pillar_cell_087",
+								"wall_pillar_cell_088",
+								"wall_pillar_cell_089",
+								"wall_pillar_cell_090",
+								"wall_pillar_cell_091",
+								"wall_pillar_cell_092",
+								"wall_pillar_cell_093",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

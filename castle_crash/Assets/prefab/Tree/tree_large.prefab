@@ -1,0 +1,44 @@
+{
+  "RootObject": {
+    "__guid": "d8c428f1-6798-4e6f-aba3-ae8fc8de1536",
+    "Flags": 0,
+    "Name": "tree_large",
+    "Position": "-2000,2000,0",
+    "Tags": "solid",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "98441dbf-5978-43bd-80be-dc7c9959f34c",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "Model": "models/tree-large/tree_large.vmdl",
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "Sandbox.CapsuleCollider",
+        "__guid": "a4fb82f5-bce7-4f5b-8f42-155c067c6a56",
+        "End": "0,0,150",
+        "IsTrigger": false,
+        "Radius": 40,
+        "Start": "0,0,0",
+        "Static": true,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

@@ -1,0 +1,178 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "materials/colormap_material.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/bridge-straight-broken/bridge-straight-broken.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"bridge_straight",
+								"bridge_straight_cell",
+								"bridge_straight_cell_001",
+								"bridge_straight_cell_002",
+								"bridge_straight_cell_003",
+								"bridge_straight_cell_004",
+								"bridge_straight_cell_005",
+								"bridge_straight_cell_006",
+								"bridge_straight_cell_007",
+								"bridge_straight_cell_008",
+								"bridge_straight_cell_009",
+								"bridge_straight_cell_010",
+								"bridge_straight_cell_011",
+								"bridge_straight_cell_012",
+								"bridge_straight_cell_013",
+								"bridge_straight_cell_014",
+								"bridge_straight_cell_015",
+								"bridge_straight_cell_016",
+								"bridge_straight_cell_017",
+								"bridge_straight_cell_018",
+								"bridge_straight_cell_019",
+								"bridge_straight_cell_020",
+								"bridge_straight_cell_021",
+								"bridge_straight_cell_022",
+								"bridge_straight_cell_023",
+								"bridge_straight_cell_024",
+								"bridge_straight_cell_025",
+								"bridge_straight_cell_026",
+								"bridge_straight_cell_027",
+								"bridge_straight_cell_028",
+								"bridge_straight_cell_029",
+								"bridge_straight_cell_030",
+								"bridge_straight_cell_031",
+								"bridge_straight_cell_032",
+								"bridge_straight_cell_033",
+								"bridge_straight_cell_034",
+								"bridge_straight_cell_035",
+								"bridge_straight_cell_036",
+								"bridge_straight_cell_037",
+								"bridge_straight_cell_038",
+								"bridge_straight_cell_039",
+								"bridge_straight_cell_040",
+								"bridge_straight_cell_041",
+								"bridge_straight_cell_042",
+								"bridge_straight_cell_043",
+								"bridge_straight_cell_044",
+								"bridge_straight_cell_045",
+								"bridge_straight_cell_046",
+								"bridge_straight_cell_047",
+								"bridge_straight_cell_048",
+								"bridge_straight_cell_049",
+								"bridge_straight_cell_050",
+								"bridge_straight_cell_051",
+								"bridge_straight_cell_052",
+								"bridge_straight_cell_053",
+								"bridge_straight_cell_054",
+								"bridge_straight_cell_055",
+								"bridge_straight_cell_056",
+								"bridge_straight_cell_057",
+								"bridge_straight_cell_058",
+								"bridge_straight_cell_059",
+								"bridge_straight_cell_060",
+								"bridge_straight_cell_061",
+								"bridge_straight_cell_062",
+								"bridge_straight_cell_063",
+								"bridge_straight_cell_064",
+								"bridge_straight_cell_065",
+								"bridge_straight_cell_066",
+								"bridge_straight_cell_067",
+								"bridge_straight_cell_068",
+								"bridge_straight_cell_069",
+								"bridge_straight_cell_070",
+								"bridge_straight_cell_071",
+								"bridge_straight_cell_072",
+								"bridge_straight_cell_073",
+								"bridge_straight_cell_074",
+								"bridge_straight_cell_075",
+								"bridge_straight_cell_076",
+								"bridge_straight_cell_077",
+								"bridge_straight_cell_078",
+								"bridge_straight_cell_079",
+								"bridge_straight_cell_080",
+								"bridge_straight_cell_081",
+								"bridge_straight_cell_082",
+								"bridge_straight_cell_083",
+								"bridge_straight_cell_084",
+								"bridge_straight_cell_085",
+								"bridge_straight_cell_086",
+								"bridge_straight_cell_087",
+								"bridge_straight_cell_088",
+								"bridge_straight_cell_089",
+								"bridge_straight_cell_090",
+								"bridge_straight_cell_091",
+								"bridge_straight_cell_092",
+								"bridge_straight_cell_093",
+								"bridge_straight_cell_094",
+								"bridge_straight_cell_095",
+								"bridge_straight_cell_096",
+								"bridge_straight_cell_097",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 0.0
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

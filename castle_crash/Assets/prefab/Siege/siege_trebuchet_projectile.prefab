@@ -1,0 +1,82 @@
+{
+  "RootObject": {
+    "__guid": "216a9a66-7870-48f5-a1e1-0199a96b2c4d",
+    "Flags": 0,
+    "Name": "siege_trebuchet_projectile",
+    "Scale": "0.23,0.23,0.23",
+    "Tags": "projectile",
+    "Enabled": true,
+    "NetworkMode": 1,
+    "Components": [
+      {
+        "__type": "CastleCustomPropComponent",
+        "__guid": "e7915057-83d4-4bb2-8c24-637a95129942",
+        "bLocalForceDefaultPropKill": true,
+        "BodyGroups": 18446744073709551615,
+        "BrokenPiecesMaterialGroup": null,
+        "Health": 0,
+        "IsStatic": false,
+        "MaterialGroup": null,
+        "Model": "models/sphere_base/sphere_base.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnPropBreak": null,
+        "OnPropTakeDamage": null,
+        "StartAsleep": false,
+        "SurfaceNameForSoundToPlay": "default",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "SiegeProjectileComponent",
+        "__guid": "15600681-b6cb-4143-b728-4569de733d4b",
+        "bBreakOnImpact": true,
+        "LifetimeAfterSleep": 30,
+        "LifetimeTimer": 30,
+        "MassOverride": 250,
+        "MinHitSpeedToBreak": 70,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

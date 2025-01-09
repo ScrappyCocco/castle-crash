@@ -1,0 +1,97 @@
+{
+  "RootObject": {
+    "__guid": "8a276fed-6974-45f9-b6cc-a921446d17d5",
+    "Flags": 0,
+    "Name": "siege_trebuchet",
+    "Enabled": true,
+    "NetworkMode": 1,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "3cd7b2ec-f0ba-4b88-a0d5-f3425d5151d4",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/siege-trebuchet/siege_trebuchet.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "SiegeMachineComponent",
+        "__guid": "2eeeadc0-4e35-4bf4-b8c5-461db5391582",
+        "Fire_Spawn_Loc": {
+          "_type": "gameobject",
+          "go": "5397b05e-831f-456a-b4df-9d9a3a3414ca"
+        },
+        "FirePower": 10,
+        "FireSpeed": 10,
+        "MaxFirePower": 30,
+        "MinFirePower": 5,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "ProjectilePrefab": {
+          "_type": "gameobject",
+          "prefab": "prefab/siege/siege_trebuchet_projectile.prefab"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "5397b05e-831f-456a-b4df-9d9a3a3414ca",
+        "Flags": 0,
+        "Name": "Fire_Location",
+        "Position": "-0.3968153,-100.2629,115.4031",
+        "Rotation": "0.2705981,-0.2705981,0.6532815,0.6532815",
+        "Enabled": true
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

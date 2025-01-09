@@ -1,0 +1,43 @@
+{
+  "RootObject": {
+    "__guid": "4704de9f-1fcc-40ca-9ff2-80ffc34ce101",
+    "Flags": 0,
+    "Name": "tree_trunk",
+    "Position": "-2100,1950,0",
+    "Tags": "solid",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "e74657d2-1e32-4bf9-bfab-9a79dfab5d04",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "Model": "models/tree-trunk/tree_trunk.vmdl",
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "e4787c02-3c2d-4bf0-998b-b562055f26f4",
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Scale": "32,32,70",
+        "Static": true,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

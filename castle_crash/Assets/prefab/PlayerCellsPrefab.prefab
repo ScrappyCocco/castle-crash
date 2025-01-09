@@ -1,0 +1,312 @@
+{
+  "RootObject": {
+    "__guid": "f4710286-0926-4067-afb5-dfe0dcbd556b",
+    "Flags": 0,
+    "Name": "playercellsprefab",
+    "Enabled": true,
+    "NetworkMode": 1,
+    "Components": [
+      {
+        "__type": "PlayerObjectInfoComponent",
+        "__guid": "9c843d08-66e5-4f10-bd40-a79655f970f2",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "PlayerCameraPosition": {
+          "_type": "gameobject",
+          "go": "10f8a291-a41f-4e9d-bd9f-443255d18a65"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "a2310bca-c7fa-4d82-bbd3-f9dc4d966375",
+        "Flags": 0,
+        "Name": "SiegeCell (3)",
+        "Position": "0,300.0001,5",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Scale": "2,2,1",
+        "Tags": "siege_cell",
+        "Enabled": true,
+        "__Prefab": "prefab/siege_cell.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "92f071bc-a8b9-41cd-8447-705f9445aee0",
+        "Flags": 0,
+        "Name": "SiegeCell (4)",
+        "Position": "0,-300,5",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Scale": "2,2,1",
+        "Tags": "siege_cell",
+        "Enabled": true,
+        "__Prefab": "prefab/siege_cell.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "4d542637-80e1-466c-acb6-a3eaa0727f6e",
+        "Flags": 0,
+        "Name": "SiegeCell (1)",
+        "Position": "0,0,5",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Scale": "2,2,1",
+        "Tags": "siege_cell",
+        "Enabled": true,
+        "__Prefab": "prefab/siege_cell.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "574e9b25-8cac-4d1d-9be7-ac260facb01e",
+        "Flags": 0,
+        "Name": "tree_log (2)",
+        "Position": "100,-450,11",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "6a881382-7a80-4c78-afc7-a8a0cd049101",
+        "Flags": 0,
+        "Name": "tree_log (8)",
+        "Position": "-150.0005,-300.0001,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "5e2912fa-6b0b-4117-9033-cedf3ecc77ae",
+        "Flags": 0,
+        "Name": "tree_log (7)",
+        "Position": "-150.0005,-150.0001,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "165b2c56-5744-488c-b7ea-635d4487477b",
+        "Flags": 0,
+        "Name": "tree_log (6)",
+        "Position": "-150.0005,-0.00003051758,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "01adb0ef-f576-4592-9d5e-8bf9ce568ef8",
+        "Flags": 0,
+        "Name": "tree_log (5)",
+        "Position": "-150.0005,150,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "c9d6e5f2-7112-4820-a94a-f9b32ced0090",
+        "Flags": 0,
+        "Name": "tree_log (9)",
+        "Position": "149.9998,300.0001,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "c2a967fb-7ec2-482f-8a35-99e8703a3cb8",
+        "Flags": 0,
+        "Name": "tree_log (10)",
+        "Position": "149.9998,150,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "b3e922d9-0522-4623-b8d9-98f042effd21",
+        "Flags": 0,
+        "Name": "tree_log (11)",
+        "Position": "149.9998,-0.00003051758,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "459511a1-9699-418c-b3cf-96c8798ef331",
+        "Flags": 0,
+        "Name": "tree_log (12)",
+        "Position": "149.9998,-150.0001,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "ddb0106d-0638-498b-aae0-41dc9f70d137",
+        "Flags": 0,
+        "Name": "tree_log (13)",
+        "Position": "149.9998,-300.0001,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "57cc32bd-b1f3-41fb-8f53-5e27cf6b53e4",
+        "Flags": 0,
+        "Name": "tree_log (4)",
+        "Position": "-150.0001,300.0001,11",
+        "Rotation": "0,0,-0.7071068,0.7071068",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "946cc782-2c5b-4b37-ace2-ca817ac00ce6",
+        "Flags": 0,
+        "Name": "tree_log (1)",
+        "Position": "-100,449.9999,11",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "fa7e57b4-81e1-4f7b-b688-fc8a3a7c72f1",
+        "Flags": 0,
+        "Name": "tree_log (3)",
+        "Position": "-100,-450,11",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "6e676cb5-809c-468c-b651-115556f3011d",
+        "Flags": 0,
+        "Name": "tree_log",
+        "Position": "100,449.9999,11",
+        "Tags": "solid",
+        "Enabled": true,
+        "__Prefab": "prefab/tree/tree_log.prefab",
+        "__PrefabVariables": {}
+      },
+      {
+        "__guid": "10f8a291-a41f-4e9d-bd9f-443255d18a65",
+        "Flags": 0,
+        "Name": "CameraLocation",
+        "Position": "-2174.026,0,1181.534",
+        "Rotation": "0,0.1650476,0,0.9862856",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.CameraComponent",
+            "__guid": "c4b97339-2769-4860-95ee-f4b6a281b60a",
+            "__enabled": false,
+            "BackgroundColor": "0.33333,0.46275,0.52157,1",
+            "ClearFlags": "All",
+            "FieldOfView": 60,
+            "IsMainCamera": false,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Orthographic": false,
+            "OrthographicHeight": 1204,
+            "Priority": 1,
+            "RenderExcludeTags": "",
+            "RenderTags": "",
+            "TargetEye": "None",
+            "Viewport": "0,0,1,1",
+            "ZFar": 10000,
+            "ZNear": 10
+          }
+        ]
+      },
+      {
+        "__guid": "4e1a73b0-64ec-47fa-9132-5ef60bdd9638",
+        "Flags": 0,
+        "Name": "CinematicCameraLocation(ForScreenshot)",
+        "Position": "-240,-500,30",
+        "Rotation": "0,0,0.3420201,0.9396926",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.CameraComponent",
+            "__guid": "4d7fc91a-7ff2-464b-82bb-dcdc9b6b4d2b",
+            "__enabled": false,
+            "BackgroundColor": "0.33333,0.46275,0.52157,1",
+            "ClearFlags": "All",
+            "FieldOfView": 60,
+            "IsMainCamera": false,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Orthographic": false,
+            "OrthographicHeight": 1204,
+            "Priority": 1,
+            "RenderExcludeTags": "",
+            "RenderTags": "",
+            "TargetEye": "None",
+            "Viewport": "0,0,1,1",
+            "ZFar": 10000,
+            "ZNear": 10
+          }
+        ]
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

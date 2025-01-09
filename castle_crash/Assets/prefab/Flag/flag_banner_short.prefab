@@ -1,0 +1,106 @@
+{
+  "RootObject": {
+    "__guid": "56f9bda1-68e2-41d4-8145-ced69ae45bef",
+    "Flags": 0,
+    "Name": "flag_banner_short",
+    "Tags": "destructible_prop",
+    "Enabled": true,
+    "NetworkMode": 1,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "5ece0279-a358-4aef-b22f-ab1c7bd289f1",
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "Model": "models/flag-banner-short/flag_banner_short.vmdl",
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "Sandbox.ModelCollider",
+        "__guid": "9d843921-2fae-4571-b891-fe0696bf2369",
+        "IsTrigger": false,
+        "Model": "models/flag-banner-short/flag_banner_short.vmdl",
+        "Static": true,
+        "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "7522f43d-c77f-4d37-837d-30d58074d00d",
+        "__enabled": false,
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {
+          "X": false,
+          "Y": false,
+          "Z": false,
+          "Pitch": false,
+          "Yaw": false,
+          "Roll": false
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MotionEnabled": true,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "CastlePhysicsPropComponent",
+        "__guid": "9ba69bed-a3db-48f2-b4ed-74cb913d9d5c",
+        "ColliderComponent": {
+          "_type": "component",
+          "component_id": "9d843921-2fae-4571-b891-fe0696bf2369",
+          "go": "56f9bda1-68e2-41d4-8145-ced69ae45bef",
+          "component_type": "ModelCollider"
+        },
+        "LifetimeBeforeDestroy": 10,
+        "RigidbodyComponent": {
+          "_type": "component",
+          "component_id": "7522f43d-c77f-4d37-837d-30d58074d00d",
+          "go": "56f9bda1-68e2-41d4-8145-ced69ae45bef",
+          "component_type": "Rigidbody"
+        }
+      }
+    ],
+    "Children": [],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

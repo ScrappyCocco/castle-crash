@@ -1,0 +1,122 @@
+@using System;
+@using Sandbox;
+@using Sandbox.UI;
+@namespace CastleCrash
+@inherits Panel
+@attribute [StyleSheet]
+
+<root>
+	<div class="footer">
+		@if (GameManager.Instance.PlayerState != PlayerState.Playing)
+		{
+			@if (GameManager.Instance.PlayerState == PlayerState.Placing)
+			{
+				<div class="buttons">
+					<button class="" Tooltip="#siege.catapult.tooltip" onclick=@SpawnCatapult>#siege.catapult.name</button>
+					<button class="" Tooltip="#siege.trebuchet.tooltip" onclick=@SpawnTrebuchet>#siege.trebuchet.name</button>
+					<button class="" Tooltip="#menu.close.tooltip" onclick=@Close>#menu.close.name</button>
+				</div>
+			}
+			else
+			{
+				<div class="buttons">
+					<label>#siege.fire.power.name</label><label>@(CurrentSiegeFirePower())</label>
+					<label>#siege.fire.speed.name</label><label>@(CurrentSiegeFireSpeed())</label>
+					<button class="" Tooltip="#siege.rotation.left.tooltip" onmousedown=@RotateLeft onmouseup=@StopRotateLeft>#siege.rotation.left.name</button>
+					<button class="" Tooltip="#siege.rotation.right.tooltip" onmousedown=@RotateRight onmouseup=@StopRotateRight>#siege.rotation.right.name</button>
+					<button class="" Tooltip="#siege.fire.power.increase.tooltip" onclick=@FirePowerIncrease>#siege.fire.power.increase.name</button>
+					<button class="" Tooltip="#siege.fire.power.decrease.tooltip" onclick=@FirePowerDecrease>#siege.fire.power.decrease.name</button>
+					<button class="" Tooltip="#siege.destroy.tooltip" onclick=@Destroy>#siege.destroy.name</button>
+					<button class="" Tooltip="#menu.close.tooltip" onclick=@Close>#menu.close.name</button>
+				</div>
+			}
+		}
+	</div>
+</root>
+
+@code
+{
+	public static GameHud Instance { get; private set; }
+
+	protected override void OnAfterTreeRender(bool firstTime)
+	{
+		base.OnAfterTreeRender(firstTime);
+
+		if (firstTime)
+		{
+			Instance = this;
+		}
+	}
+
+	// Catapult Spawn
+	void SpawnCatapult()
+	{
+		SiegeInputComponent.Instance.RequestCatapultSpawn();
+	}
+
+	// Trebuchet Spawn
+	void SpawnTrebuchet()
+	{
+		SiegeInputComponent.Instance.RequestTrebuchetSpawn();
+	}
+
+	// Close UI (Back)
+	void Close()
+	{
+		SiegeInputComponent.Instance.RequestCancelAction();
+	}
+
+	// Labels
+
+	string CurrentSiegeFirePower()
+	{
+		return SiegeInputComponent.Instance.RequestCurrentSiegeCurrentPower();
+	}
+
+	string CurrentSiegeFireSpeed()
+	{
+		return SiegeInputComponent.Instance.RequestCurrentSiegeFireSpeed();
+	}
+
+	// Change Rotation
+	void RotateLeft()
+	{
+		SiegeInputComponent.Instance.RequestSiegeTurnLeft();
+	}
+
+	void StopRotateLeft()
+	{
+		SiegeInputComponent.Instance.StopSiegeTurn();
+	}
+
+	void RotateRight()
+	{
+		SiegeInputComponent.Instance.RequestSiegeTurnRight();
+	}
+
+	void StopRotateRight()
+	{
+		SiegeInputComponent.Instance.StopSiegeTurn();
+	}
+
+	// Change Power
+
+	void FirePowerIncrease()
+	{
+		SiegeInputComponent.Instance.RequestSiegePowerUp();
+	}
+
+	void FirePowerDecrease()
+	{
+		SiegeInputComponent.Instance.RequestSiegePowerDown();
+	}
+
+	// Destroy the Siege
+	void Destroy()
+	{
+		SiegeInputComponent.Instance.RequestSiegeRemove();
+	}
+
+	protected override int BuildHash() => System.HashCode.Combine(GameManager.Instance.GameState,
+	GameManager.Instance.PlayerState, SiegeInputComponent.Instance.SelectedCell);
+}
