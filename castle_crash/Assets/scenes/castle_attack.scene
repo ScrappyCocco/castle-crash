@@ -168,7 +168,7 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "Shadows": false,
-          "SkyColor": "0,0,0,0"
+          "SkyColor": "0,0,0,0.15"
         }
       ]
     },
