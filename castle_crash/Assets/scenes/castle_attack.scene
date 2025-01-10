@@ -158,7 +158,7 @@
         {
           "__type": "Sandbox.DirectionalLight",
           "__guid": "7268a226-b597-46e1-84f3-0f8ded2b30f7",
-          "FogMode": "WithoutShadows",
+          "FogMode": "Disabled",
           "FogStrength": 1,
           "LightColor": "0.18275,0.19608,0.2,1",
           "OnComponentDestroy": null,
