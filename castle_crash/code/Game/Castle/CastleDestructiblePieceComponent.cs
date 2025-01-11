@@ -1,7 +1,7 @@
 using Sandbox;
 using Sandbox.Diagnostics;
 
-public sealed class CastleDestructiblePieceComponent : CastleDestructibleComponent, Component.ICollisionListener
+public sealed class CastleDestructiblePieceComponent : CastleDestructibleComponent
 {
 	[Property] public bool bCauseChainBreakToUpperPieces { get; set; } = true;
 	bool bBroken = false;
