@@ -58,7 +58,7 @@ public sealed class CastleCustomPropComponent : Prop
 				}
 				else
 				{
-					Log.Error( $"[Gib]'{CreatedGib}' of index '{CreatedGibs.IndexOf( CreatedGib )}' has an invalid Rigidbody? How?" );
+					Log.Warning( $"[Gib]'{CreatedGib}' of index '{CreatedGibs.IndexOf( CreatedGib )}' has an invalid Rigidbody? How?" );
 				}
 			}
 		}

@@ -32,11 +32,12 @@ public sealed class SiegeProjectileComponent : Component, Component.ICollisionLi
 
 		if ( collision.Other.GameObject != null && !collision.Other.GameObject.Tags.Has( "debris" ) )
 		{
-			// Could also have used collision.Contact.Speed.Length, shouldn't make much difference
-			Log.Info( $"[Projectile]{GameObject} hitted {collision.Other.GameObject} with a speed of {RigidbodyComponent.Velocity.Length}" );
+			// You can use this or RigidbodyComponent.Velocity.Length
+			var ContactSpeed = collision.Contact.Speed.Length / 10;
+			Log.Info( $"[Projectile]{GameObject} hitted {collision.Other.GameObject} with a speed of {ContactSpeed}" );
 			if ( collision.Other.GameObject.Tags.Has( "destructible" ) )
 			{
-				if ( RigidbodyComponent.Velocity.Length >= MinHitSpeedToBreak )
+				if ( ContactSpeed >= MinHitSpeedToBreak )
 				{
 					CastleDestructibleComponent CastleDestructiblePiece = collision.Other.GameObject.GetComponent<CastleDestructibleComponent>();
 					if ( CastleDestructiblePiece is not null )
